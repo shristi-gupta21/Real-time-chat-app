@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.flexRow {
+  display: flex;
+  flex: none;
+  width: 100%;
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  width: 100%;
+}
+
+.flexMinRow {
+  display: flex;
+  min-width: 24px;
+  flex: none;
+}
+.flexMinCol {
+  display: flex;
+  min-width: 24px;
+  flex-direction: column;
+  flex: none;
+}
+
+.username {
+  position: absolute;
+  right: 3rem;
+  font-size: 20px;
+  top: 10px;
+}
+.msgBox {
+  clear: both;
+  line-height: 15px;
+  font-size: 15px;
+  max-width: 85%;
+  border: 1px solid;
+  word-wrap: break-word;
+  z-index: -1;
+}
+
+.msgBox2 {
+  float: left;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.msgBox1 {
+  float: right;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px 0px 5px 5px;
+}
+
+.time {
+  font-size: 9px;
+  display: block;
+  float: right;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+
+.chatBox {
+  /* border: 1px solid; */
+  width: 33%;
+  min-height: 100%;
+  height: 100%;
+}
+
+.users {
+  /* border: 1px solid; */
+  width: 33%;
+  min-height: 100%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.users span {
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+.notification {
+  /* border: 1px solid; */
+  width: 33%;
+  min-height: 100%;
+  height: 100%;
+}
+
+.mainCntnr {
+  padding-top: 2rem;
+}
+
+.usernames {
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+header h1 {
+  padding: 10px;
+}
+.box {
+  width: 100%;
+  min-height: 70%;
+  height: 60vh;
+  border: 2px solid;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.box span {
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+
+.chatBox .txtArea {
+  width: 75%;
+  padding: 12.2px 12.2px;
+  resize: none;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.joinRoomBox {
+  justify-content: center;
+  align-items: center;
+}
+
+.joinRoom {
+  width: 30%;
+  margin-top: 13%;
+  border: 2px solid;
+  padding: 40px 45px;
+}
+
+.joinRoom button {
+  padding: 5px 10px;
+}
+
+.joinRoom label {
+  padding-bottom: 10px;
+}
+
+.attachFile {
+  display: none;
+  cursor: pointer;
+}
+
+.label {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.inputarea {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+iframe {
+  width: 80%;
+}

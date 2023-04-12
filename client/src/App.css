@@ -1,0 +1,10 @@
+.notification-container {
+  position: absolute;
+  /* border: 2px solid; */
+  height: 50px;
+  width: fit-content;
+  padding: 10px 20px;
+  right: 0px;
+  margin-top: 10px;
+  /* bottom: 10px; */
+}
